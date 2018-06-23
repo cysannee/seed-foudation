@@ -1,0 +1,143 @@
+.flexbox #test1 {
+    background-color: green;
+}
+.no-flexbox #test1 {
+    background-color: red;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#container1 {
+    &-x {
+        // border: 1px solid $secondary-color;
+        background-color: transparentize($color: $secondary-color, $amount: 0.7);
+        margin-bottom: 2rem;
+        .cell {
+            border: 1px solid $primary-color;
+        }
+    }
+    &-y {
+        // border: 1px solid $secondary-color;
+        // height: 800px;
+        background-color: transparentize($color: $secondary-color, $amount: 0.7);
+        margin-bottom: 2rem;
+        .cell {
+            border: 1px solid $success-color;
+        }
+    }
+    &b-x {
+        // border: 1px solid $secondary-color;
+        background-color: transparentize($color: $secondary-color, $amount: 0.7);
+        margin-bottom: 2rem;
+        .cell {
+            border: 1px solid $primary-color;
+        }
+    }
+    &b-y {
+        // border: 1px solid $secondary-color;
+        background-color: transparentize($color: $secondary-color, $amount: 0.7);
+        margin-bottom: 2rem;
+        .cell {
+            border: 1px solid $success-color;
+        }
+    }
+}
+
+#container2 {
+    &-x {
+        // border: 1px solid $secondary-color;
+        background-color: transparentize($color: $secondary-color, $amount: 0.7);
+        margin-bottom: 2rem;
+        .cell {
+            border: 1px solid $primary-color;
+        }
+    }
+    &-y {
+        // border: 1px solid $secondary-color;
+        background-color: transparentize($color: $secondary-color, $amount: 0.7);
+        margin-bottom: 2rem;
+        .cell {
+            border: 1px solid $success-color;
+        }
+    }
+}
+
+
+#container3 {
+    &-x {
+        // border: 1px solid $secondary-color;
+        background-color: transparentize($color: $secondary-color, $amount: 0.7);
+        margin-bottom: 2rem;
+        .cell {
+            border: 1px solid $primary-color;
+        }
+    }
+    &-y {
+        // border: 1px solid $secondary-color;
+        background-color: transparentize($color: $secondary-color, $amount: 0.7);
+        margin-bottom: 2rem;
+        .cell {
+            border: 1px solid $success-color;
+        }
+    }
+    &b-x {
+        // border: 1px solid $secondary-color;
+        background-color: transparentize($color: $secondary-color, $amount: 0.7);
+        margin-bottom: 2rem;
+        .cell {
+            border: 1px solid $primary-color;
+        }
+    }
+    &b-y {
+        // border: 1px solid $secondary-color;
+        background-color: transparentize($color: $secondary-color, $amount: 0.7);
+        margin-bottom: 2rem;
+        .cell {
+            border: 1px solid $success-color;
+        }
+    }
+}
+
+#container4 {
+    &-x {
+        // border: 1px solid $secondary-color;
+        background-color: transparentize($color: $secondary-color, $amount: 0.7);
+        margin-bottom: 2rem;
+        .cell {
+            border: 1px solid $primary-color;
+        }
+    }
+    &-y {
+        // border: 1px solid $secondary-color;
+        background-color: transparentize($color: $secondary-color, $amount: 0.7);
+        margin-bottom: 2rem;
+        .cell {
+            border: 1px solid $success-color;
+        }
+    }
+}
+
+#container5 {
+    &-x {
+        // border: 1px solid $secondary-color;
+        background-color: transparentize($color: $secondary-color, $amount: 0.7);
+        margin-bottom: 2rem;
+        .cell {
+            border: 1px solid $primary-color;
+        }
+    }
+    &-y {
+        // border: 1px solid $secondary-color;
+        background-color: transparentize($color: $secondary-color, $amount: 0.7);
+        margin-bottom: 2rem;
+        .cell {
+            border: 1px solid $success-color;
+        }
+    }
+}
+
+.container5-y-inner {
+    border-width: 0!important;
+}
